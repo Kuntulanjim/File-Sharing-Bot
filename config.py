@@ -32,7 +32,9 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "𝐉𝐀𝐍𝐆𝐀𝐍 𝐋𝐔𝐏𝐀 𝐒𝐇𝐀𝐑𝐄 𝐀𝐍𝐃 𝐉𝐎𝐈𝐍 𝐀𝐆𝐀𝐑 𝐌𝐈𝐌𝐈𝐍 𝐒𝐄𝐌𝐊𝐈𝐍 𝐒𝐄𝐌𝐍𝐆𝐀𝐓 𝐔𝐏𝐋𝐎𝐀𝐃 🥰🥰🥰
+
+𝐂𝐇𝐀𝐍𝐍𝐄𝐋")
 
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
